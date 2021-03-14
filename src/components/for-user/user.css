@@ -1,0 +1,271 @@
+.head-user {
+    line-height: 50px;
+    box-shadow: 0px 0px 5px 1px rgb(109, 108, 108);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.logo {
+    width: 120px;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+}
+
+.search-text {
+    width: 80%;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    background-color: #fbfbfb;
+    border-radius: 0 20px 20px 0;
+}
+
+.icon-search {
+    width: 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+.login {
+    
+    font-size: 1.5rem;
+    min-width: 100px;
+    border-radius: 20px;
+    background-color: #d8b979;
+    color: white;
+}
+
+.body-user {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px
+}
+
+.user-category__list {
+    width: 25%;
+    border: 1px solid black;
+    max-height: 300px;
+}
+
+.categories__headding {
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.user-list__category {
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-bottom: 1px solid black;
+}
+
+.user-list__category:last-child {
+    border: none;
+}
+
+.user-list__category > a {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.user-product__list {
+    width: 45%;
+    border: 1px solid black;
+}
+
+.user-list__heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.user-list__products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-products__item {
+    width: 30%;
+    margin: 10px 0;
+    min-height: 200px;
+    margin-left: 15px;
+    border-bottom: 2px solid black;
+}
+
+.user-block-top {
+    width: 100%;
+    min-height: 200px;
+}
+
+.user-block-top > img {
+    width: 100%;
+    
+}
+
+.user-block-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    min-height: 58px;
+}
+
+.user-item__info {
+    flex: 1;
+}
+
+.info__name {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.info__price {
+    font-size: 1.3rem;
+    margin-top: 10px
+}
+
+.user-item__handle {
+    max-width: 30px;
+    flex: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-handle__btn {
+    line-height: 30px;
+    width: 100px;
+    background-color: #799dd9;
+    font-size: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.user-cart__list {
+    width: 25%;
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+}
+
+.user-product__pagination {
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.user-product__pagination > * {
+    flex-basis: 30%;
+    border: 1px solid black;
+}
+
+.pagination__page  {
+    text-align: center;
+}
+
+.cart__headding {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cart__list {
+    min-height: 300px;
+    overflow-y: scroll;
+    max-height: 300px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.state__list-cart {
+    margin: 10px 10px;
+    font-size: 1.5rem;
+    color:rgb(109, 108, 108)
+}
+
+.cart__info {
+    flex: 1;
+}
+
+.cart__handle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30px;
+}
+
+.cart-handle__btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+}
+
+.amount {
+    font-size: 1.8rem
+}
+
+.cart-info__name {
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+
+.cart-info__price {
+    margin-top: 10px;
+    font-size: 1.2rem
+}
+
+.btn__pay {
+    width: 100%;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #d8b979;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.info-customer {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+.info-customer > * {
+    height: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.info-customer > input {
+    background-color: #c0c1c4;
+    padding-left: 10px;
+}
+
+.pay--has-link {
+    position: absolute;
+    bottom: 15px;
+    padding: 3px 50px;
+}

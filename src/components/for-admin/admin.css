@@ -1,0 +1,233 @@
+.head-admin {
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.head-admin__text {
+    font-size: 2rem;
+}
+
+.admin-product {
+    max-width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+.admin-product__form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 80px
+}
+
+.admin-product__form > * {
+    height: 50px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.admin-product__form > input {
+    padding-left: 10px;
+    background-color: rgb(205, 211, 216);
+}
+
+.admin-product__list {
+    width: 60%;
+}
+
+select {
+    width: 100%;
+    font-size: 2rem;
+}
+
+option {
+    font-size: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.admin-list__products {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.admin-products__item {
+    width: 30%;
+    min-height: 200px;
+    margin: 10px 0;
+    margin-left: 18px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.admin-products__item:hover {
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.admin-block-top {
+    width: 100%;
+    min-height: 200px;
+}
+
+.admin-top__image {
+    width: 100%;
+}
+
+.admin-block-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    min-height: 58px;
+}
+
+.admin-item__info {
+    flex: 1;
+}
+
+.info__name {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.info__price {
+    font-size: 1.3rem;
+    margin-top: 10px
+}
+
+.admin-item__handle {
+    max-width: 30px;
+    flex: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.admin-handle__btn {
+    line-height: 30px;
+    width: 100px;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+.admin-category {
+    width: 75%;
+    border: 1px solid black;
+    margin: auto;
+    min-height: 500px;
+}
+
+.admin-category__form {
+    line-height: 40px;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+}
+.admin-category__form > input {
+    width: 85%;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.admin-category__form > button {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.admin-category__list {
+    margin: auto;
+}
+
+.admin-list__row {
+    display: flex;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.admin-list__row > p {
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.admin-list__row--large > P {
+    font-size: 2rem;
+}
+
+.row__action {
+    color: red;
+    cursor: pointer;
+    width: 10px;
+}
+
+.admin-order {
+    width: 80%;
+    margin: auto;
+    min-height: 384px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-order__list {
+    width: 60%;
+    border-left: 2px solid black;
+}
+
+.admin-list__heading {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.admin-list__order-date {
+    font-size: 2rem;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.admin-order__detail-order {
+    width: 40%;
+    padding: 80px;
+    line-height: 30px;
+}
+
+.admin-order__detail-order > * {
+    font-size: 1.5rem;
+}
+
+table {
+    width: 250px;
+    border: 1px solid black;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+.greeting {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+}
